@@ -29,3 +29,46 @@
 - === / == ：前者判断完全相等，后者不可以，会进行类型转换
 
   typeof null 的返回值是Object，判断null使用===（nudefined也一样）
+
+**什么是实例：实例对象的简写  **   **什么是类型：类型对象的简写**
+
+```js
+function Person (name,age){//构造函数 类型
+    this.name=name;
+    this.age=age;
+}
+const p = new Person();//根据类型创建的实例对象
+
+Person('jack',12)//语法和法，但不是实例对象，一般不会这么做
+```
+
+- undefined和null的区别
+
+  `undefined代表未定义，null代表定义了但是值为null`
+
+- 什么时候要给变量赋值为null呢
+
+  `表明一个未赋值的对象（typeof null 的返回值为Object）`
+
+  ```js
+  var b = null;//初始赋值为null，代表将要赋值为对象
+  //确定对象就赋值
+  b = ['atguigu',12];
+  //最后
+  b = null;//让b指向的对象成为垃圾对象（垃圾回收器回收）
+  ```
+
+- 严格区别变量类型和数据类型？
+
+  *数据的类型
+
+  ​	*基本类型
+
+  ​	*对象类型
+
+  *变量的类型（变量内存值的类型）
+
+  ​	*基本类型
+
+  ​	*引用类型
+
