@@ -2,6 +2,10 @@
 
 ## 1_基础总结深入
 
+## 001-分号问题
+
+<img src="F:\github本地仓库\atguigu-prprpr\Lay the foundation\JavaScript高级实战进阶\images\分号问题.png" style="zoom:50%;" />
+
 ### 01_数据类型
 
 1.分类
@@ -85,3 +89,49 @@ Person('jack',12)//语法和法，但不是实例对象，一般不会这么做
 - 2个引用变量指向同一个对象，通过一个变量修改对象内部数据，另一个变量看到的是修改后的数据
 
 ### 3.在js调用函数时传递变量参数时，是值传递还是引用传递
+
+<img src="F:\github本地仓库\atguigu-prprpr\Lay the foundation\JavaScript高级实战进阶\images\在js调用函数时传递变量参数时，是值传递还是引用传递.png" style="color: red; zoom: 50%;" />
+
+### 4.js引擎如何进行内存管理？
+
+<img src="F:\github本地仓库\atguigu-prprpr\Lay the foundation\JavaScript高级实战进阶\images\4.js引擎如何进行内存管理？.png" style="zoom:50%;" />
+
+## 3.对象
+
+<img src="F:\github本地仓库\atguigu-prprpr\Lay the foundation\JavaScript高级实战进阶\images\对象.png" style="zoom:50%;" />
+
+### 问题：什么时候必须使用['属性名']的方式？
+
+<img src="F:\github本地仓库\atguigu-prprpr\Lay the foundation\JavaScript高级实战进阶\images\问题：什么时候必须使用['属性名']的方式？.png" style="zoom:50%;" />
+
+## 4.函数
+
+### 1.函数
+
+<img src="F:\github本地仓库\atguigu-prprpr\Lay the foundation\JavaScript高级实战进阶\images\1.函数.png" style="zoom:50%;" />
+
+### 2.回调函数
+
+![](F:\github本地仓库\atguigu-prprpr\Lay the foundation\JavaScript高级实战进阶\images\2.回调函数.png)
+
+### 3.IIFE
+
+<img src="F:\github本地仓库\atguigu-prprpr\Lay the foundation\JavaScript高级实战进阶\images\IIFE.png" style="zoom: 50%;" />
+
+### 4.原型
+
+<img src="F:\github本地仓库\atguigu-prprpr\Lay the foundation\JavaScript高级实战进阶\images\原型1.png" alt="原型1"  />
+
+![](F:\github本地仓库\atguigu-prprpr\Lay the foundation\JavaScript高级实战进阶\images\原型2.png)
+
+### 5.显性原型与隐形原型
+
+![](F:\github本地仓库\atguigu-prprpr\Lay the foundation\JavaScript高级实战进阶\images\原型4.png)
+
+![](F:\github本地仓库\atguigu-prprpr\Lay the foundation\JavaScript高级实战进阶\images\原型3.png)
+
+![](F:\github本地仓库\atguigu-prprpr\Lay the foundation\JavaScript高级实战进阶\images\原型5.png)
+
+### 6.执行上下文
+
+![](F:\github本地仓库\atguigu-prprpr\Lay the foundation\JavaScript高级实战进阶\images\上下文.png)
